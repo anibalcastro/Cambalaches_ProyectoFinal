@@ -1,0 +1,42 @@
+@media screen and (max-width:650px) {
+    
+    .titulo{
+        font-size: 28px;
+    }
+    
+    .menu_2{
+       display: none;
+    }  
+
+    .contenedor_texto{
+        display: none;
+    }
+    
+   .menu_3{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       height: 213px;
+   }
+
+   .menu_3 a{
+        color: black;
+    }
+
+    .menu_3 a:hover{
+        width:150px;
+        height: 30px;
+        color: white;
+        background-color: black;
+    }
+
+   .menu_3 p{
+       margin-top: 10px;
+       padding-top: 5px;
+   }
+   .direccion{
+       margin-top: 15px;
+   }
+}

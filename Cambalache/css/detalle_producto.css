@@ -1,0 +1,68 @@
+.detalle{
+    display:flex;
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_vendedor{
+    width: 100%;
+    display: inline;
+    float: right;
+    padding-left: 17px;
+}
+
+.titulo{
+    width: 99%;
+    height: auto;
+}
+
+.info_vendedor .txt_descripcion{
+    width: 99%;
+    height:auto;
+    margin-top: 0px;
+}
+
+.info_vendedor .txt_busco{
+    width: 99%;
+    height: auto;
+    margin-top: 0px;
+  
+}
+
+.info_vendedor .linea_corta{
+    background-color:black;
+    height: 0.1px;
+    width: 37%;
+}
+
+.info_vendedor .btn_agregar{
+    height:35px;
+    width:145px;
+    background-color: black;
+    color: white;
+}
+
+.contenedor_imagen{
+    display: inline;
+    float: left;
+    margin-top: 15px;
+}
+
+.marco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    height: 363px;
+    width: 543px;
+    background-color: white(255 250 250);
+}
+
+.marco img{
+    height: 95%;
+}
+
+

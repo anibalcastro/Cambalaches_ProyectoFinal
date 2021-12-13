@@ -1,0 +1,65 @@
+.marco{
+    width: 146px;
+    height: 117px;
+    border: 1px solid black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cambalache{
+    width:auto;
+    display: flex;
+    align-content: normal;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+#text {
+    display: none;
+}
+
+.descripcion{
+    padding-top: 9px;
+    float: right;
+    padding-left: 9px;
+}
+
+.marco img{
+    width: 56%;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    height: 180px;
+    width: 100%;
+    background-color:lightskyblue
+}
+
+footer{
+    background-color:lightgray
+}
+
+.titulo_cambalache{
+    width: 99px;
+}

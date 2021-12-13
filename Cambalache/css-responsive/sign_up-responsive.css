@@ -1,0 +1,75 @@
+/* REGISTRO*/
+
+/*Se cumple solo si llega a 479px*/
+@media screen and (max-width:480px) {
+    /*Darle margen al html*/
+    html{
+        margin-left: 4px;
+        margin-right: 4px;
+    }      
+
+    /*Reduciendo el tamaño de los encabezados*/
+    .encabezado h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /*Reduce la linea*/
+    .encabezado .linea_50{
+        width: 234px;
+    }
+
+    /*Más grande el contenedor*/
+    .contenedor{
+        height: 395px;
+    }
+
+    /*Creandolo en bloques los input*/
+    .contenedor .inp_s1, .inp_s3, .inp_s4 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 76%;
+    }
+
+    /*Ancho tamaño*/
+    .contenedor .inp_s2{
+        width: 76%;
+    }
+
+    /*Espaciado a los input*/
+    #last_name, #city, #password{
+        margin-top: 10px;
+    }
+
+    /*Ancho al select*/
+    .select_s3{
+        width: 100%;
+    }
+
+
+
+
+
+}
+
+/*Se cumple solo si llega a 369px*/
+@media screen and (max-width: 370px){
+    
+
+    /*Darle margen al html*/
+    html{
+        margin-left: 4px;
+        margin-right: 4px;
+    }   
+    
+    /*Hace más pequeño el texto porque se sale del margen
+    lo centra*/
+    .texto p{
+        font-size:small;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}

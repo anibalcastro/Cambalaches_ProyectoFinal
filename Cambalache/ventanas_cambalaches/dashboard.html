@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/generico.css">
+    <link rel="stylesheet" href="/css-responsive/generico-responsive.css">
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <link rel="stylesheet" href="/css-responsive/dashborad-responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <!--Menu principal-->
+    <nav role="navigation" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only"> Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/index.html"><img class="logo" src="/img/logo - copia.png" alt="logo"></a>
+            </div>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+                <ul id="opciones_menu_principal" class="nav navbar-nav">
+                    <li class="opcion"><a href="/index.html">Inicio</a></li>
+                    <li><a class="opcion" href="/ventanas_cambalaches/cambalaches.html">Cambalaches</a></li>
+                    <li><a class="opcion" href="/ventanas_cambalaches/login.html">Ingresar</a></li>
+                    <li><a href="#"><button class="mi_carrito">Mi Carrito</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Contenedor -->
+    <section  id="contenedor_1" class="container">
+        <main class="encabezado">
+            <h1>Dashboard</h1>
+            <p>
+                Bienvenido <strong id="nombreUsuario"></strong>, aqui podrá encontrar el estado actual de sus
+                Cambalaches y sus productos registrados
+            </p>
+        </main>
+    </section>
+
+    <div class="linea_100"></div>
+    <div>
+        <button id="btn_nuevo" class="btn_nuevo" onClick="redireccionarNuevoProducto();">Nuevo</button>
+    </div>
+    <div class="linea_100"></div>
+
+    <!--
+    Contiene los cambalaches del usuario registrado
+    se cargan por javascript
+    -->
+    <!--Contenedor donde tendrá todos los productos-->
+    <div class="productos">
+        <!--Container bostrap-->
+        <div id="container" class="container">
+           
+        </div>
+
+    </div>
+
+    <!--Se encuentra el pie de pagina un submenu-->
+    <footer>
+        <nav class="menu_2">
+            <ul class="submenu">
+                <li>
+                    <a href="/ventanas_cambalaches/dashboard.html">Dashboard</a>
+                </li>
+                <li class="linea">
+                    <div class="linea"></div>
+                </li>
+                <li>
+                    <a href="/ventanas_cambalaches/cambalaches.html">Cambalaches</a>
+                </li>
+                <li class="linea">
+                    <div class="linea"></div>
+                </li>
+                <li>
+                    <a href="/index.html">Inicio</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contenedor_texto">
+            <p>Cambalaches.net</p>
+        </div>
+        <div class="menu_3">
+            <a href="/index.html">Inicio</a>
+            <br>
+            <a href="/ventanas_cambalaches/cambalaches.html">Cambalaches</a>
+            <br>
+            <a href="/ventanas_cambalaches/dashboard.html">Dashboard</a>
+            <p>Cambalaches.net</p>
+        </div>
+    </footer>
+
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/js/dashboard.js"></script>
+
+
+</body>
+
+</html>

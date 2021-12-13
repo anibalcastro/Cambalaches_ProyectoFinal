@@ -1,0 +1,35 @@
+@media  screen and (max-width: 808px) {
+    .detalle{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .marco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid;
+        height: 204px;
+        width: 344px;
+        background-color: white;
+        margin-top: 160px;
+    }
+
+    .info_vendedor{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        float: right;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .menu_2{
+        margin-top: 179px;
+    }
+
+    .menu_3{
+        margin-top: 179px;
+    }
+}
